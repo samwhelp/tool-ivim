@@ -679,6 +679,7 @@ nnoremap ,p :set autochdir<CR>:set autochdir!<CR>:pwd<CR>
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 """ Head: Window
+""
 
 " ## switch window
 nnoremap <Tab> <C-w>w " ## use <Tab> or <C-i>
@@ -693,6 +694,15 @@ nnoremap ,wa :only<CR> " let me know which command
 " ## hide
 nnoremap ,h :hide<CR>
 
+
+" ## resize window
+" :help window-resize
+nnoremap <S-Down> <C-w>-
+nnoremap <S-Up> <C-w>+
+nnoremap <S-Left> <C-w><
+nnoremap <S-Right> <C-w>>
+
+""
 """ Tail: Window
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 

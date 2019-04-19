@@ -1,17 +1,15 @@
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-""" Head: ConfigInControl
+""" Head: ConfEnhance
 ""
 
-function! s:ConfigInControl () abort
+function! s:ConfEnhance () abort
 
-	call s:PackConfBase()
-	call s:ConfEnhance()
+
 
 endfunction
 
-
 ""
-""" Tail: ConfigInControl
+""" Tail: ConfEnhance
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
