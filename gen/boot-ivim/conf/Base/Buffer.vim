@@ -56,7 +56,9 @@ nnoremap ,b :ls<CR>
 
 
 " ## save
-nnoremap ,s :w<CR>
+"nnoremap ,s :w<CR>
+nnoremap <S-Tab> :w<CR>
+inoremap <S-Tab> <Esc>:w<CR>a
 
 ""
 """ Tail: Buffer
