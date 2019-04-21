@@ -85,6 +85,7 @@ ivim_build_vimrc () {
 	ivim_apd_conf_file "Base/Explore.vim" "$file_path"
 	ivim_apd_conf_file "Base/Mode.vim" "$file_path"
 	ivim_apd_conf_file "Base/Cache.vim" "$file_path"
+	ivim_apd_conf_file "Base/Edit.vim" "$file_path"
 
 
 	# conf - extra
