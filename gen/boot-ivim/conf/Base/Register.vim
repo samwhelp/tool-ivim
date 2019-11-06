@@ -4,6 +4,7 @@
 """ Head: Register
 ""
 
+" :help registers
 nnoremap ,r :registers<CR>
 
 

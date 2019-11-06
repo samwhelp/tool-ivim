@@ -2,17 +2,25 @@
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 """ Head: Window
-""
 
 " ## switch window
-nnoremap <Tab> <C-w>w " ## use <Tab> or <C-i>
+" ## use <Tab> or <C-i>
+nnoremap <Tab> <C-w>w
 nnoremap <BS> <C-w>W
 
 
 " ## current window only
 "nnoremap ,wa <C-w>o
-nnoremap ,wa :only<CR> " let me know which command
+nnoremap ,wa :only<CR>
 
+" ## close window
+nnoremap ,wc :close<CR>
+
+" ## new horizontal window
+nnoremap ,wn :new<CR>
+
+" ## new vertical window
+nnoremap ,wv :vnew<CR>
 
 " ## hide
 nnoremap ,h :hide<CR>
@@ -25,7 +33,7 @@ nnoremap <S-Up> <C-w>+
 nnoremap <S-Left> <C-w><
 nnoremap <S-Right> <C-w>>
 
-""
+
 """ Tail: Window
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
