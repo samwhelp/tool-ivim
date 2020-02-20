@@ -471,6 +471,7 @@ nnoremap ,m :marks<CR>
 """ Head: Register
 ""
 
+" :help registers
 nnoremap ,r :registers<CR>
 
 
@@ -480,7 +481,7 @@ nnoremap ,r :registers<CR>
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-""" Head: Fit
+""" Head: Option
 ""
 
 " ## for close
@@ -503,26 +504,23 @@ set fileencodings=utf-8,utf-16,big5,gb2312,gbk,gb18030,euc-jp,euc-kr,latin1
 set hidden
 
 ""
-""" Tail: Fit
+""" Tail: Option
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 """ Head: Buffer
 ""
 
-
-
-
 " ## switch buffer
 nnoremap ,` :bprevious<CR>
 nnoremap ,<Tab> :bnext<CR>
 nnoremap <C-Up> :bprevious<CR>
 nnoremap <C-Down> :bnext<CR>
-nnoremap <C-j> :bprevious<CR>
-nnoremap <C-k> :bnext<CR>
+nnoremap <C-k> :bprevious<CR>
+nnoremap <C-j> :bnext<CR>
 " Note: collision <CTRL+\>
+" :help index
 " :help index.txt
 " :help mode-switching
 "nnoremap <C-Bslash> :bnext<CR>
@@ -550,16 +548,16 @@ inoremap <S-Tab> <Esc>:w<CR>a
 
 " ## delete buffer
 "nnoremap <Bslash>q :bdelete<CR>
-"nnoremap <Bslash>x :%bdelete<CR>
 "nnoremap <Bslash>z :bdelete!<CR>
+"nnoremap <Bslash>x :%bdelete<CR>
 "nnoremap <Bslash>c :%bdelete!<CR>
 
 
 
 " ## quit
 "nnoremap ,q :q<CR>
-"nnoremap ,x :qa<CR>
 "nnoremap ,z :q!<CR>
+"nnoremap ,x :qa<CR>
 "nnoremap ,c :qa!<CR>
 
 ""
@@ -573,17 +571,16 @@ inoremap <S-Tab> <Esc>:w<CR>a
 
 " ## delete buffer
 nnoremap <Bslash>q :q<CR>
-nnoremap <Bslash>x :qa<CR>
 nnoremap <Bslash>z :q!<CR>
+nnoremap <Bslash>x :qa<CR>
 nnoremap <Bslash>c :qa!<CR>
 
 
 " ## quit
 nnoremap ,q :bdelete<CR>
-nnoremap ,x :%bdelete<CR>
 nnoremap ,z :bdelete!<CR>
+nnoremap ,x :%bdelete<CR>
 nnoremap ,c :%bdelete!<CR>
-
 
 ""
 """ Tail: Quit - Case 2
@@ -679,17 +676,25 @@ nnoremap ,p :set autochdir<CR>:set autochdir!<CR>:pwd<CR>
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 """ Head: Window
-""
 
 " ## switch window
-nnoremap <Tab> <C-w>w " ## use <Tab> or <C-i>
+" ## use <Tab> or <C-i>
+nnoremap <Tab> <C-w>w
 nnoremap <BS> <C-w>W
 
 
 " ## current window only
 "nnoremap ,wa <C-w>o
-nnoremap ,wa :only<CR> " let me know which command
+nnoremap ,wa :only<CR>
 
+" ## close window
+nnoremap ,wc :close<CR>
+
+" ## new horizontal window
+nnoremap ,wn :new<CR>
+
+" ## new vertical window
+nnoremap ,wv :vnew<CR>
 
 " ## hide
 nnoremap ,h :hide<CR>
@@ -702,7 +707,7 @@ nnoremap <S-Up> <C-w>+
 nnoremap <S-Left> <C-w><
 nnoremap <S-Right> <C-w>>
 
-""
+
 """ Tail: Window
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 

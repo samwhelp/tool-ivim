@@ -37,8 +37,8 @@ nnoremap ,` :bprevious<CR>
 nnoremap ,<Tab> :bnext<CR>
 nnoremap <C-Up> :bprevious<CR>
 nnoremap <C-Down> :bnext<CR>
-nnoremap <C-j> :bprevious<CR>
-nnoremap <C-k> :bnext<CR>
+nnoremap <C-k> :bprevious<CR>
+nnoremap <C-j> :bnext<CR>
 " Note: collision <CTRL+\>
 " :help index
 " :help index.txt
