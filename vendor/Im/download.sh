@@ -6,4 +6,5 @@
 # https://github.com/vim-scripts/fcitx.vim
 # https://github.com/lilydjwg/fcitx.vim
 
-git clone https://github.com/lilydjwg/fcitx.vim Fcitx
+#git clone https://github.com/lilydjwg/fcitx.vim Fcitx
+git clone -b fcitx4 https://github.com/lilydjwg/fcitx.vim Fcitx
