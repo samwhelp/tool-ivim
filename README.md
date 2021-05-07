@@ -16,7 +16,7 @@ $ vimrc-get ivim
 ## Doc
 
 * [tool-ivim-doc](https://samwhelp.github.io/tool-ivim-doc) ([GitHub](https://github.com/samwhelp/tool-ivim-doc))
-* note-about-vim / [mvim](https://samwhelp.github.io/note-about-vim/read/project/ivim.html)
+* note-about-vim / [ivim](https://samwhelp.github.io/note-about-vim/read/project/ivim.html)
 
 
 ## Keybind
