@@ -59,6 +59,7 @@ set wildignore+=*.png,*.jpg,*.gif,*.svg,*.xpm
 set wildcharm=<C-o>
 "nnoremap <C-l> :buffer<Space><C-o>
 nnoremap <Space>bb :buffer<Space><C-o>
+nnoremap <Space>ee :edit<Space><C-o>
 
 cnoremap <C-y> <Up>
 

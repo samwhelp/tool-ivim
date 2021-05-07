@@ -926,6 +926,7 @@ nnoremap tb :tab help<CR>
 ""
 
 nnoremap ,e :Lexplore<CR>
+nnoremap <Space>ef :Lexplore<CR>
 "nnoremap ,e :Explore<CR>
 "nnoremap ,g :Rexplore<CR>
 "nnoremap ,g :Explore<Space>
@@ -1030,6 +1031,7 @@ set wildignore+=*.png,*.jpg,*.gif,*.svg,*.xpm
 set wildcharm=<C-o>
 "nnoremap <C-l> :buffer<Space><C-o>
 nnoremap <Space>bb :buffer<Space><C-o>
+nnoremap <Space>ee :edit<Space><C-o>
 
 cnoremap <C-y> <Up>
 

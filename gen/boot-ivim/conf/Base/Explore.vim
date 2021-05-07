@@ -5,6 +5,7 @@
 ""
 
 nnoremap ,e :Lexplore<CR>
+nnoremap <Space>ef :Lexplore<CR>
 "nnoremap ,e :Explore<CR>
 "nnoremap ,g :Rexplore<CR>
 "nnoremap ,g :Explore<Space>
