@@ -90,6 +90,7 @@ ivim_build_vimrc () {
 
 	# conf - extra
 	ivim_apd_conf_file "Extra/Terminal.vim" "$file_path"
+	ivim_apd_conf_file "Extra/Clipboard.vim" "$file_path"
 
 
 	# tail
