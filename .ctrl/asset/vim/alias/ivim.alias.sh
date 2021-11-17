@@ -1,2 +1,1 @@
-alias ivim='vim -u $HOME/.vimrc-profile/ivim/vimrc'
-
+alias ivim='vim -u $HOME/.local/share/vimrc-profile/ivim/vimrc'

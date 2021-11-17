@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-nvim -u "$HOME/.vimrc-profile/ivim/init.vim" "$@"
+nvim -u "$HOME/.local/share/vimrc-profile/ivim/init.vim" "$@"
